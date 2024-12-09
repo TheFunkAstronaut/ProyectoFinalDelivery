@@ -1,0 +1,11 @@
+package com.example.proyectofinaldelivery.models
+
+data class Product(
+    val id: Int,
+    val name: String,
+    val description: String,
+    val price: String,
+    val restaurant_id: Int,
+    val image: String,
+    var quantity: Int = 0
+)
